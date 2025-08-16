@@ -2,7 +2,7 @@
 
 This project is a Java-based solution for the MaxHome take-home assignment, Part 1. It simulates the navigation of robotic rovers on a rectangular plateau on Jupiter's moon, Europa, using the Gradle build tool.
 
-## 📝Assumptions
+## Assumptions
 
 1.  Valid Input Format: The program assumes that the input provided via standard input is well-formed and follows the format specified in the problem description. No validation is performed on the input structure itself.
 
