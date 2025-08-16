@@ -3,9 +3,6 @@ package ai.maxhome.europa;
 import java.util.Map;
 import java.util.HashMap;
 
-/**
- * Represents the four directions.
- */
 public enum Direction {
     NORTH('N'),
     EAST('E'),
@@ -31,7 +28,7 @@ public enum Direction {
     }
 
     public static Direction fromCode(char code) {
-        if (lookup.containsKey(code)) {
+        if (!lookup.containsKey(code)) {
             throw new IllegalArgumentException("Invalid direction code: " + code);
         }
         return lookup.get(code);
